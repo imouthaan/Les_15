@@ -2,9 +2,15 @@ header {
     background-color: #282a35;
 }
 
-header,
 body,
-footer {
+html {
+    padding: 0;
+    margin: 0;
+}
+
+header > *,
+body > *,
+footer > * {
     padding: 5px;
 }
 
@@ -33,7 +39,6 @@ body {
     background-color: #e7e9eb;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
-    
 }
 
 body > p {
@@ -45,17 +50,17 @@ body > img {
 }
 h1 {
     text-align: center;
-  }
+}
 div {
     padding: 1rem 0;
     min-height: 78vh;
 }
 
-.content{
+.content {
     max-width: 500px;
-  margin: auto;
-  background: white;
-  padding: 10px;
+    margin: auto;
+    background: white;
+    padding: 10px;
 }
 footer {
     background-color: #282a35;
@@ -92,7 +97,8 @@ footer {
     color: white;
 }
 
-input[type='text'], input[type=email] {
+input[type='text'],
+input[type='email'] {
     width: 100%;
     padding: 12px 10px;
     margin: 8px 0;
